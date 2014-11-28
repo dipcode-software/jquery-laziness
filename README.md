@@ -5,10 +5,10 @@ jQuery plugin to images lazy loading.
 
 Example:
 --------
-
 ::
-    $(document).ready(function() {
 
+    $(document).ready(function() {
+    
         $(document).laziness({
             selector: 'img[data-src]', // image selector on selected container
             attribute: 'data-src',     // imagesrc html attribute
